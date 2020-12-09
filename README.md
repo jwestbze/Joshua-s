@@ -8,7 +8,7 @@ Included in this Github is my network diagram and also my ansible yaml scripts.
   -install python
   -install pip3
 
-*Ansible "elk1.yml": all done on my elk VM
+*Ansible "install_elk1.yml": all done on my elk VM
   -installs docker
   -installs pip3
   -installs python3
