@@ -1,0 +1,6 @@
+#!/bin/bash/
+
+grep -e '05:00:00' -e '08:00:00' -e '02:00:00' -e '11:00:00' 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | awk '{print $2}' >> Dealers_working_during_losses
+
+
+
